@@ -26,6 +26,8 @@
 
 #### Packet Header Flasgs
 |-|-|-|
+|byte|stuff|
+|-|-|-|
 |1| Hop limit|
 |3 |want ack|
 |4 | via MQTT|
