@@ -1,6 +1,10 @@
 # BASICS
 > LoRa long-range radio protocol
+> CSS => chirp spread spectrum modulation
 > rebroadcasting messages for forming mesh networks
+> license free on EU868 (863–870/873 MHz)
+> opensource software/firmware
+> 
 
 ## Protocol stack
 
@@ -141,3 +145,5 @@
 * (Offical)[https://meshtastic.org/]
 * (Reddit)[https://www.reddit.com/r/meshtastic/]
 * (Discord)[https://discord.com/invite/ktMAKGBnBs]
+* (Local Groups list)[https://github.com/meshtastic/meshtastic/blob/master/docs/community/local-groups.mdx]
+* (Remote Admin gist)[https://github.com/meshtastic/meshtastic/blob/master/docs/configuration/remote-admin.mdx]
