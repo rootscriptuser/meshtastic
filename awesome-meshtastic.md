@@ -25,8 +25,7 @@
 > depends on SNR
 
 #### Packet Header Flasgs
-
-|byte|stuff||
+|byte|stuff|
 |-|-|-|
 |1| Hop limit|
 |3 |want ack|
@@ -64,9 +63,11 @@
 > you can onyl listen to one frequency slot!?
 
 ### Roles
-1. PRIMARY - 1 -  only one can exist and periodic broadcast GPS and telemetry only set over this channel
-1. SECONDARY - 2 - can modify PSK
-1. DISABLED - 0 -
+|Role|No.|Description|
+|-|-|-|
+|PRIMARY | 1 |  only one can exist and periodic broadcast GPS and telemetry only set over this channel | 
+|SECONDARY | 2 | can modify PSK |
+| DISABLED | 0 | |
 
 ### Downlink uplink enable/disable
 
@@ -139,4 +140,4 @@
 
 (Offical)[https://meshtastic.org/]
 (Reddit)[https://www.reddit.com/r/meshtastic/]
-(Discord)[https://discord.com/invite/ktMAKGBnBs]
+(Diescord)[https://discord.com/invite/ktMAKGBnBs]
