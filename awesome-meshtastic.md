@@ -25,10 +25,11 @@
 > depends on SNR
 
 #### Packet Header Flasgs
-1. 1 Hop limit
-1. 3 want ack
-1. 4 via MQTT
-1. 5..7 unused
+|-|-|-|
+|1| Hop limit|
+|3 |want ack|
+|4 | via MQTT|
+|5..7 |unused|
 
 # HARDWARE
 
@@ -61,9 +62,9 @@
 > you can onyl listen to one frequency slot!?
 
 ### Roles
-> PRIMARY - 1 -  only one can exist and periodic broadcast GPS and telemetry only set over this channel
-> SECONDARY - 2 - can modify PSK
-> DISABLED - 0 -
+1. PRIMARY - 1 -  only one can exist and periodic broadcast GPS and telemetry only set over this channel
+1. SECONDARY - 2 - can modify PSK
+1. DISABLED - 0 -
 
 ### Downlink uplink enable/disable
 
@@ -130,3 +131,10 @@
 
 > meshtastic receives data from its own network and publish them to the broker using mqtt proto
 > telemetry data format varies on the information being published
+
+
+# USEFULL LINKS
+
+(Offical)[https://meshtastic.org/]
+(Reddit)[https://www.reddit.com/r/meshtastic/]
+(Discord)[https://discord.com/invite/ktMAKGBnBs]
