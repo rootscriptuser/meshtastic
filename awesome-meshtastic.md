@@ -142,8 +142,8 @@
 
 # USEFULL LINKS
 
-* (Offical)[https://meshtastic.org/]
-* (Reddit)[https://www.reddit.com/r/meshtastic/]
-* (Discord)[https://discord.com/invite/ktMAKGBnBs]
-* (Local Groups list)[https://github.com/meshtastic/meshtastic/blob/master/docs/community/local-groups.mdx]
-* (Remote Admin gist)[https://github.com/meshtastic/meshtastic/blob/master/docs/configuration/remote-admin.mdx]
+* [Offical](https://meshtastic.org/)
+* [Reddit](https://www.reddit.com/r/meshtastic/)
+* [Discord](https://discord.com/invite/ktMAKGBnBs)
+* [Local Groups list](https://github.com/meshtastic/meshtastic/blob/master/docs/community/local-groups.mdx)
+* [Remote Admin gist](https://github.com/meshtastic/meshtastic/blob/master/docs/configuration/remote-admin.mdx)
