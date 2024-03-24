@@ -1,10 +1,10 @@
 # BASICS
-> LoRa long-range radio protocol
-> CSS => chirp spread spectrum modulation
-> rebroadcasting messages for forming mesh networks
-> license free on EU868 (863–870/873 MHz)
-> opensource software/firmware
-> 
+* LoRa long-range radio protocol
+* CSS => chirp spread spectrum modulation
+* rebroadcasting messages for forming mesh networks
+* license free on EU868 (863–870/873 MHz)
+* opensource software/firmware
+ 
 
 ## Protocol stack
 
