@@ -138,6 +138,6 @@
 
 # USEFULL LINKS
 
-(Offical)[https://meshtastic.org/]
-(Reddit)[https://www.reddit.com/r/meshtastic/]
-(Discord)[https://discord.com/invite/ktMAKGBnBs]
+* (Offical)[https://meshtastic.org/]
+* (Reddit)[https://www.reddit.com/r/meshtastic/]
+* (Discord)[https://discord.com/invite/ktMAKGBnBs]
