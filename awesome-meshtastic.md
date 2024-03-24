@@ -25,7 +25,7 @@
 > depends on SNR
 
 #### Packet Header Flasgs
-|byte|stuff|
+|byte|stuff||
 |-|-|-|
 |1| Hop limit|
 |3 |want ack|
@@ -140,4 +140,4 @@
 
 (Offical)[https://meshtastic.org/]
 (Reddit)[https://www.reddit.com/r/meshtastic/]
-(Diescord)[https://discord.com/invite/ktMAKGBnBs]
+(Discord)[https://discord.com/invite/ktMAKGBnBs]
