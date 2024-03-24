@@ -25,7 +25,7 @@
 > depends on SNR
 
 #### Packet Header Flasgs
-|-|-|-|
+
 |byte|stuff|
 |-|-|-|
 |1| Hop limit|
