@@ -5,12 +5,10 @@
 * license free on EU868 (863–870/873 MHz)
 * opensource software/firmware
  
-
 ## Protocol stack
 
 ### Layer 0 - LoRa radio
-
-> preamble with lenght of 8 + LoRa physical header
+`preamble with lenght of 8 + LoRa physical header`
 
 ### Layer 1 - Unreliable Zero Hop Messaging
 
@@ -23,10 +21,10 @@
 * max237 bytes packet data (encrypted)
 
 ### Layer 2 - Reliable Zero Hop Messaging
-> wantAck
+`wantAck`
 
 ### Layer 3 - Flooding for multihop Messaging
-> depends on SNR
+` depends on SNR `
 
 #### Packet Header Flasgs
 |byte|stuff||
@@ -61,10 +59,10 @@
 # RADIO CONFIG
 
 ## Network
-> enbale wifi
+`enbale wifi and set SSID && PSK `
 
 ## Channels
-> you can onyl listen to one frequency slot!?
+`you can onyl listen to one frequency slot!? TO-DO`
 
 ### Roles
 |Role|No.|Description|
@@ -115,7 +113,11 @@
 * 1600 kHz
 
 ## Position
-> GPS enable, update interval , Flags, Broadcast interval
+in this menu:
+* GPS enable
+* update interval
+* Flags
+*  Broadcast interval
 
 # REMOTE NODE ADMINISTRATION
 
@@ -125,16 +127,18 @@
 
 # MQTT
 
-1. passwd
-1. encryption enabled
-1. JSON enabled ( not encrypted)
-1. TLS enabled
-1. ROOT topic / segmente mesh networks via ACLs
+1. set passwd for broker
+2. set Url/domian for broker
+3. set ROOT topic (segmment mesh network with ACL)
+4. set encryption enabled
+5. set JSON enabled ( not encrypted)
+6. set TLS enabled
 
-1. topics
-1. clinets
-1. broker
-1. messaging queue telemetry transport
+main stuff to understand:
+1. TOPIC => publish/subscribe to a topic from broker
+2. CLIENT => meshtastic node
+3. BROKER => iot "server" for retransmiting clients messages
+4. MQTT=> messaging queue telemetry transport
 
 > meshtastic receives data from its own network and publish them to the broker using mqtt proto
 > telemetry data format varies on the information being published
